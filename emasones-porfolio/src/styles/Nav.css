@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+
+  top: 3rem;
+  gap: 1.5325rem;
+  left: 50%;
+}
+
+.nav-home {
+  transform: translateX(-1.56rem);
+}
+.nav-skills {
+  transform: translateX(-5.50rem);
+}
+.nav-projects {
+  transform: translateX(-13.90rem);
+}
+.nav-contact {
+  transform: translateX(-9.80rem);
+}

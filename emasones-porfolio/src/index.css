@@ -1,8 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 
 body {
-    background-color: blue;
+    background-color: #333;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Russo One', sans-serif;
+}
+
+:root {
+    -purple: #540351;
+    -blue: #3627b1;
+    -cyan: #25afce;
+    -transparent: #00000000;
+    --radius-left: 3 rem 00 3 rem;
+    --radius-right: 0 3rem 0 ;
+}
+
+button:Hover,
+.class-sub-container a:Hover,
+.project-item:hover,
+.skills-item:hover,
+.sub-container-2:not(.active-subheading):hover,
+.sub-container-3:not(.active-subheading):hover {
+    background-image: linear-gradient(90deg, #ffffff00,#ffffff42 50%, #ffffff00);
 }
