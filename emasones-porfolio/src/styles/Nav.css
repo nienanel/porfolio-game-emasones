@@ -16,8 +16,63 @@
   transform: translateX(-5.50rem);
 }
 .nav-projects {
-  transform: translateX(-13.90rem);
+  transform: translateX(-11rem);
 }
 .nav-contact {
-  transform: translateX(-9.80rem);
+  transform: translateX(-13.5rem);
+}
+
+a {
+  width: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.page-title {
+  font-size: 0.8rem;
+  color: white;
+  cursor: default;
+}
+
+.nav-link {
+  opacity: 0.7;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link.current {
+  opacity: 1;
+}
+
+/*** querys ****/
+
+@media (max-width: 1100px) {
+  .nav-home,
+  .nav-contact,
+  .nav-projects,
+  .nav-skills {
+    transform: translateX(0);
+  }
+  .nav {
+    top: calc(100vh - 15vh);
+    transform: translateX(-50%);
+  }
+  .nav-link {
+    width: 2rem;
+  }
+  .nav-link img {
+    width: 2rem;
+  }
+  .nav-link img:hover {
+    transform: translateY(-1rem);
+    transition: all ease-in-out 0.3s;
+  }
+  .page-title {
+    display: none;
+  }
 }

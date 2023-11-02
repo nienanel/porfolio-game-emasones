@@ -25,18 +25,18 @@ const navItems = [
     title: "SKILLS",
   },
   {
-    to: "/contact",
-    imgsrc: envelope,
-    altText: "envelope",
-    navClass: "nav-contact",
-    title: "CONTACT",
-  },
-  {
     to: "/projects",
     imgsrc: stack,
     altText: "stack",
     navClass: "nav-projects",
     title: "PROJECTS",
+  },
+  {
+    to: "/contact",
+    imgsrc: envelope,
+    altText: "envelope",
+    navClass: "nav-contact",
+    title: "CONTACT",
   },
 ];
 
