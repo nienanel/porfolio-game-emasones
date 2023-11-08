@@ -6,6 +6,7 @@ import "./index.css";
 import Background from "./background/Background";
 /**** Components  ****/
 import Nav from "./components/Nav";
+import PlayerStats from "./components/PlayerStats";
 
 /**** pages ****/
 import Home from "./pages/Home";
@@ -24,6 +25,7 @@ const App = () => {
       <Route exact path="/projects" element={<Projects/>} />
       <Route exact path="/contact" element={<Contact/>} />
     </Routes>
+    <PlayerStats />
     </Router>
   );
 };

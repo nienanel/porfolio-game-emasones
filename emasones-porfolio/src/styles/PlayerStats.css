@@ -1,0 +1,59 @@
+.playerStats {
+  width: 17rem;
+  height: 4.8rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 3rem;
+  left: 3rem;
+}
+
+.playerStats h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.playerStats h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.playerLevel {
+  display: flex;
+  align-items: center;
+}
+
+.playerLinesThin {
+  display: block;
+  background-color: white;
+  height: 0.2rem;
+  width: 8.75rem;
+}
+
+.playerLinesThick {
+  display: block;
+  background-color: lightgray;
+  height: 0.1rem;
+  width: 6.2rem;
+}
+
+@media (max-width: 1100px) {
+  .playerStats {
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 12rem;
+    height: 2.8rem;
+    top: 2rem;
+    padding: 1rem;
+  }
+  .playerStats h1 {
+    font-size: 1.2rem;
+  }
+  .playerStats h2,
+  h3,
+  p {
+    font-size: 0.9rem;
+  }
+}

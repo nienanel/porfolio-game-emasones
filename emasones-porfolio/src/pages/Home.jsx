@@ -1,9 +1,11 @@
 import React from "react";
-
+import Avatar from "../components/Avatar"
+import HomeMenu from "../components/HomeMenu"
 export default function Home() {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+            <Avatar page="home" />
+            <HomeMenu  />
+        </>
     );
 }

@@ -15,7 +15,7 @@ const Background = () => {
                 preload="auto"
                 id="bg"
                 poster={fallbackImage}>
-                <source src={video} type="video/mp4"></source>
+                <source src={video} type="video/mp4"/>
             </video>
         </>
     )
